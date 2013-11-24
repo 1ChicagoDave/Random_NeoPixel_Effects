@@ -28,7 +28,7 @@ void setup() {
 
 void loop() 
 {
-  randomPixelColor(1);
+  randomPixelColor(0);
 
 }
 
