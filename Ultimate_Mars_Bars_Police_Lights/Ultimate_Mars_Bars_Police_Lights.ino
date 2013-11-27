@@ -101,7 +101,7 @@ void colorWipe(int R, int G, int B, int wait)
   for (int segment = 0; segment < numSegments; segment++)      // Example (2 segments -> segment=0, segment=1)
   {
     // to set pixel colors in each segment
-    for (int pixel = node[segment+1]; pixel > node[segment]; pixel--)    // Example (2 segments -> pixel=0, pixel=15 && pixel=15, pixel=30)
+    for (int pixel = (node[segment+1]-1); pixel >= node[segment]; pixel--)    // Example (2 segments -> pixel=0, pixel=15 && pixel=15, pixel=30)
     {
       boolean Blue;
       //  if odd, Blue
