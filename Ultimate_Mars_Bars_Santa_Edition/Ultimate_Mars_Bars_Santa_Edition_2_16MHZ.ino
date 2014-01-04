@@ -1,7 +1,14 @@
 // NeoPixel Mars Bars!
 // By: David R Ratliff
 // November 2013
-// One step closer in my trek for realistic police lights using Arduino, minimal hardware, and minimal code.
+// My semi-realistic Police-Light "Mars Bars" sketch tweaked, delayed, and re-colored for the holidays!
+// Now Green and Red blinky randomness can light up your Christmas...and possibly cause a seizure.* 
+//  
+//                                                    (*Do not stare directly at flashinjg lights!)
+//
+
+// Please, do be careful. This version is very sensitive to any extra variables and/or conditionals (at least for Trinket!)
+//  I may be pushing the limits of that little guy with this one.
 
 #include <avr/power.h>
 
@@ -47,6 +54,7 @@ int b[arraySize] = {
 
 void setup()
 {
+// This next line is for 5V Trinket (ATtiny85) only. Please remove it if using other microcontroller.
   if (F_CPU == 16000000) clock_prescale_set(clock_div_1);
 
   strip.begin();  // Start 'er up!
