@@ -1,4 +1,3 @@
-
 // Random Strip & Random Pixel sketch for Arduino & NeoPixel Strips
 // By: David R Ratliff
 // November 2013
