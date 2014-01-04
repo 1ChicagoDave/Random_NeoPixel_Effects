@@ -1,12 +1,17 @@
 // Random Strip sketch for Arduino & NeoPixel Strips
 // By: David R Ratliff
 // November 2013
-// Randomly assigns color values to pixels in order....starting at pixel 0
+//
+//  Randomly assigns color values to pixels in order....starting at pixel 0
+//  ** All pixels remain active. We're only CHANGING the color of the pixels one at a time.
+//
 // Created in response to post on Adafruit forums requesting similar effect.
 // Compiles to just under 3kB
+//
 // Written and tested on Adafruit's "Trinket" ATTiny85 Arduino platform
 // Will work with most Arduino & compatible boards
-// Can also be used as a nice 'starter' sketch for other random effects
+//
+//  Can also be used as a nice 'starter' sketch for other random effects
 
 
 #include <Adafruit_NeoPixel.h>    // Adafruit's NeoPixel Library
