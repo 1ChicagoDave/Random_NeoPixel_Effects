@@ -1,4 +1,3 @@
-
 // Random Strip sketch for Arduino & NeoPixel Strips
 // By: David R Ratliff
 // November 2013
@@ -7,6 +6,7 @@
 // Compiles to just under 3kB
 // Written and tested on Adafruit's "Trinket" ATTiny85 Arduino platform
 // Will work with most Arduino & compatible boards
+// Can also be used as a nice 'starter' sketch for other random effects
 
 
 #include <Adafruit_NeoPixel.h>    // Adafruit's NeoPixel Library
