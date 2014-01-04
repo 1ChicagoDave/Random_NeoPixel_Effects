@@ -1,7 +1,11 @@
 // NeoPixel Mars Bars!
 // By: David R Ratliff
 // November 2013
-// One step closer in my trek for realistic police lights using Arduino, minimal hardware, and minimal code.
+// My semi-realistic Police-Light "Mars Bars" sketch tweaked, delayed, and re-colored for the holidays!
+// Now Green and Red blinky randomness can light up your Christmas...and possibly cause a seizure.* 
+//  
+//                                                    (*Do not stare directly at flashinjg lights!)
+//
 
 #include <Adafruit_NeoPixel.h>
 
