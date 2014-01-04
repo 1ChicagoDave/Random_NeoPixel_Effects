@@ -1,4 +1,3 @@
-
 // NeoPixel Mars Bars!
 // By: David R Ratliff
 // November 2013
